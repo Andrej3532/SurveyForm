@@ -8,7 +8,76 @@
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 <body>
-	
+	<div class="center"><h1>freeCodeCamp Survey Form</h1>
+	<p>Thank you for taking the time to help us improve the platform</p>
+	</div>
+	<form action="kramarenko3532@gmail.com">
+		<p>
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" required>
+  </p>
+  <p>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+  </p>
+  <p>
+    <label for="email">Age
+(optional)</label>
+    <input type="number" name="Age" id="email" required>
+  </p>
+  	<p>
+  	<label for="role-select">Which option best describes your current role?</label>
+  <select name="role" id="role-select">
+    <option value="select">Select current role</option>
+    <option value="student" >Student</option>
+    <option value="full_time_job">Full Time Job</option>
+    <option value="full_time_learner">Full Time Learner</option>
+    <option value="not_to_say">Prefer not to say</option>
+    <option value="other">Other</option>
+  </select>
+  	</p>
+
+  	<p>Would you recommend freeCodeCamp to a friend?</p>
+  <p>
+    <input type="radio" id="contactChoice1"
+     name="contact" value="Definitely" checked>
+    <label for="contactChoice1">Definitely</label></p>
+<p>
+    <input type="radio" id="contactChoice2"
+     name="contact" value="Maybe">
+    <label for="contactChoice2">Maybe</label></p>
+<p>
+    <input type="radio" id="contactChoice3"
+     name="contact" value="Not sure">
+    <label for="contactChoice3">Not sure</label>
+  </p>
+  <p>
+  	<label for="favorite_feature">What is your favorite feature of freeCodeCamp?</label>
+  <select name="role" id="favorite_feature">
+    <option value="select">Select an option</option>
+    <option value="challenges">Challenges</option>
+    <option value="projects">Projects</option>
+    <option value="community">Community</option>
+    <option value="open_source">Open Source</option>
+ 
+  </select>
+  	</p>
+  	<p>What would you like to see improved? (Check all that apply)</p>
+   <p><label><input type="checkbox" name="a" value="Front-end Projects"> Front-end Projects</label></p>
+   <p><label><input type="checkbox" name="a" value="Back-end Projects"> Back-end Projects</label></p>
+   <p><label><input type="checkbox" name="a" value="Data Visualization"> Data Visualization</label></p>
+   <p><label><input type="checkbox" name="a" value="Challenges"> Challenges</label></p>
+   <p><label><input type="checkbox" name="a" value="Open Source Community"> Open Source Community</label></p>
+   <p><label><input type="checkbox" name="a" value="Gitter help rooms"> Gitter help rooms</label></p>
+   <p><label><input type="checkbox" name="a" value="Videos"> Videos</label></p>
+   <p><label><input type="checkbox" name="a" value="City Meetups"> City Meetups</label></p>
+   <p><label><input type="checkbox" name="a" value="Wiki"> Wiki</label></p>
+   <p><label><input type="checkbox" name="a" value="Forum"> Forum</label></p>
+   <p><label><input type="checkbox" name="a" value="Additional Courses"> Additional Courses</label></p>
+   <p>Any comments or suggestions?</p>
+   <p><textarea name="comment" cols="30" rows="10" placeholder="Enter yout comment here..."></textarea></p>
+   <button>Submit</button>
+	</form>
 </body>
 </html>
 
