@@ -50,10 +50,11 @@ body{
 
 display: block;
 width: 40%;
-min-width: 300px;
+min-width: 480px;
 margin: 0 auto;
 border-radius: 5px;
 padding: 20px 35px;
+
 }
 .input {
 	min-width: 100%;
