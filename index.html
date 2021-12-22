@@ -11,23 +11,23 @@
 	<div class="center"><h1>freeCodeCamp Survey Form</h1>
 	<p>Thank you for taking the time to help us improve the platform</p>
 	</div>
-	<form action="kramarenko3532@gmail.com">
+	
+	<form action="kramarenko3532@gmail.com" class="forma">
 		<p>
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name" required>
+    <label for="name">Name</label><br>
+    <input type="text" name="name" id="name" required placeholder="Enter your name" class="input">
   </p>
   <p>
-    <label for="email">Email:</label>
-    <input type="email" name="email" id="email" required>
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" id="email" required placeholder="Enter your Email" class="input">
   </p>
   <p>
-    <label for="email">Age
-(optional)</label>
-    <input type="number" name="Age" id="email" required>
+    <label for="email">Age (optional)</label><br>
+    <input type="number" name="Age" id="email" placeholder="Age" class="input">
   </p>
   	<p>
-  	<label for="role-select">Which option best describes your current role?</label>
-  <select name="role" id="role-select">
+  	<label for="role-select">Which option best describes your current role?</label><br>
+  <select name="role" id="role-select" class="input">
     <option value="select">Select current role</option>
     <option value="student" >Student</option>
     <option value="full_time_job">Full Time Job</option>
@@ -52,8 +52,8 @@
     <label for="contactChoice3">Not sure</label>
   </p>
   <p>
-  	<label for="favorite_feature">What is your favorite feature of freeCodeCamp?</label>
-  <select name="role" id="favorite_feature">
+  	<label for="favorite_feature">What is your favorite feature of freeCodeCamp?</label><br>
+  <select name="role" id="favorite_feature" class="input">
     <option value="select">Select an option</option>
     <option value="challenges">Challenges</option>
     <option value="projects">Projects</option>
@@ -75,9 +75,10 @@
    <p><label><input type="checkbox" name="a" value="Forum"> Forum</label></p>
    <p><label><input type="checkbox" name="a" value="Additional Courses"> Additional Courses</label></p>
    <p>Any comments or suggestions?</p>
-   <p><textarea name="comment" cols="30" rows="10" placeholder="Enter yout comment here..."></textarea></p>
-   <button>Submit</button>
+   <p><textarea name="comment" cols="20" rows="5" placeholder="Enter yout comment here..." class="input"></textarea></p>
+   <button class="input style_button">Submit</button>
 	</form>
+	
 </body>
 </html>
 
